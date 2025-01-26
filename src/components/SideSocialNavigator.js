@@ -6,7 +6,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 export default function SideSocialNavigator() {
     const SocialIcons = [{ icon: faInstagram, link: 'https://www.instagram.com/vishalgupta1189/', }, {
-        icon: faGithub, link: 'https://github.com/vvrvishal',
+        icon: faGithub, link: 'https://github.com/DeveloperVishalGupta/',
     }, { icon: faLinkedinIn, link: 'https://www.linkedin.com/in/vishal2210/', }]
     const iconList = SocialIcons.map((value, index) => {
         return <a href={value.link} target='_' className='text-secondary'>

@@ -3,9 +3,16 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import feedBack from '../images/feedBack.png'
+import axios from 'axios';
+const API_URL = 'https://mybusiness.googleapis.com/v4/accounts/{accountId}/locations/{locationId}/reviews';
+
 // import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export default function FeedBack(props) {
+    const profileId = '13358731228513348858';
+    // locations / { locationId }
+    const API_URL = `https://mybusiness.googleapis.com/v4/accounts/${profileId}/reviews`;
+
     const options = {
         responsive: {
             0: {
@@ -27,6 +34,21 @@ export default function FeedBack(props) {
         fb: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected',
         // clientName: 'Abhishek Gupta'
     }];
+
+    const getReviews = async () => {
+        try {
+            const response = await axios.get(API_URL, {
+                headers: {
+                    'Authorization': `Bearer YOUR_ACCESS_TOKEN` // Replace with actual OAuth token
+                }
+            });
+            return response.data;
+        } catch (error) {
+            console.error('Error fetching reviews:', error);
+        }
+    };
+
+    // const respons = https://mybusiness.googleapis.com/v4/accounts/{accountId}/locations/{locationId}/reviews
 
     const feedbackHtml = feedbackArray.map((value, index) => {
         return <div key={index}>
