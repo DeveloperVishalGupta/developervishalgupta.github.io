@@ -19,7 +19,7 @@ function App() {
     return (
         <>
             <Helmet>
-                <title>Dynamic Page Title</title>
+                <title>Portfolio of Vishal Gupta - Frontend Developer</title>
                 <meta name="description" content="Energetic frontend developer with 3 year 5 months of experience in creating responsive and user-friendly web applications, from planning to launch. Skilled in post-production support and resolving UI/UX defects for various business processes. Proficient in HTML, CSS, JavaScript, and modern frameworks like React JS and Next.js." />
                 <meta property="og:title" content="Frontend Developer | Web Developer | Building Responsive and Interactive Interfaces" />
                 <meta property="og:description" content="Energetic Frontend Developer with 3+ years of experience in creating responsive and user-friendly web applications using HTML, CSS, JavaScript, React.js, and Next.js. Skilled in UI/UX optimization and post-production support." />
@@ -33,7 +33,7 @@ function App() {
             <ServicesPage codeIcon={faLaptopCode} pencilIcon={faPencilSquare} />
             <MyFortfolio />
             <Resume />
-            <FeedBack />
+            {/* <FeedBack /> */}
             <ConnectUs />
             <Footer />
         </>

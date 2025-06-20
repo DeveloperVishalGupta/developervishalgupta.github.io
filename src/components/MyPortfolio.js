@@ -1,8 +1,7 @@
-import React from "react";
 import Button from 'react-bootstrap/Button';
-import upcsLabIcon from '../images/logobowl.png'
+import mtraxDigitalMediaLogo from '../images/mtraxDigitalMediaLogo.png'
 
-export default function MyFortfolio(props) {
+export default function MyFortfolio() {
     const ProjectArray = [
         {
             name: 'Carversal',
@@ -12,11 +11,18 @@ export default function MyFortfolio(props) {
             projectLink: 'https://www.carversal.com/'
         },
         {
-            name: 'upsc lab',
+            name: 'Spatika',
             class: 'site2BgImage',
-            image: upcsLabIcon,
-            projectLink: 'https://www.upsclab.in',
-            discription: 'UPSC Lab are dedicated to helping aspiring civil servants achieve their dream of becoming an IAS/IPS/IFS officer. '
+            image: null,
+            projectLink: 'https://mtraxdigitalmedia.vercel.app/',
+            discription: 'Relax, rejuvenate, and enhance your natural beauty with our luxurious salon and spa services. Indulge in a tranquil experience where expert care, soothing ambiance, and premium treatments come together to leave you feeling refreshed, radiant, and renewed'
+        },
+        {
+            name: 'Mtrax Digital Media',
+            class: 'site2BgImage',
+            image: mtraxDigitalMediaLogo,
+            projectLink: 'https://mtraxdigitalmedia.vercel.app/',
+            discription: 'A digital platform revolutionizing the music industry by connecting artists, producers, and listeners through streaming, collaboration, and data-driven insights.'
         },
 
     ];

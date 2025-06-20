@@ -106,7 +106,7 @@ export default function ConnectUs() {
         <>
             <div className="container-fluid text-white" style={{ background: 'rgb(39, 43, 68)' }} id="contactSection">
                 <div className="row mx-0">
-                    <div className="col-md-12">
+                    <div className="col-md-12 " style={{ paddingBottom: '5rem' }}>
                         <div className=" justify-content-center mb-2 mx-md-4 row">
                             <div className="col-md-11 col-lg-10">
                                 <h1 className='playfairFont mt-5'><b>Get In <span className='greenColor'>Touch.</span></b></h1>
@@ -117,18 +117,17 @@ export default function ConnectUs() {
                                 </div>
                             </div>
                         </div>
-                        <h1 className='playfairFont text-center text-white mt-5 mb-4'><b>Contact us and <span className='greenColor'>stay in touch</span></b></h1>
+                        {/* <h1 className='playfairFont text-center text-white mt-5 mb-4'><b>Contact us and <span className='greenColor'>stay in touch</span></b></h1> */}
 
                     </div>
                 </div>
             </div>
-            <div className="container-fluid py-5 " style={{ backgroundColor: 'rgb(39, 43, 68)' }}>
+            {/* <div className="container-fluid py-5 " style={{ backgroundColor: 'rgb(39, 43, 68)' }}>
                 <div className="row justify-content-center mx-0">
                     <div className="col-md-10">
                         <div className="justify-content-around row">
                             <div className="bg-gradient border col-md-7 p-5 rounded-4" >
                                 <Form>
-                                    {/* first name  */}
                                     <div>
                                         <Form.Label className="text-white small">First Name</Form.Label>
                                         <Form.Control
@@ -141,7 +140,6 @@ export default function ConnectUs() {
                                             required
                                         />
                                     </div>
-                                    {/* last name  */}
                                     <div>
                                         <Form.Label className="text-white small">Last Name</Form.Label>
                                         <Form.Control
@@ -153,7 +151,6 @@ export default function ConnectUs() {
                                             placeholder="patel"
                                         />
                                     </div>
-                                    {/* Phone  */}
                                     <div>
                                         <Form.Label className="text-white small">Phone</Form.Label>
                                         <Form.Control
@@ -165,7 +162,6 @@ export default function ConnectUs() {
                                             placeholder="0123456789"
                                         />
                                     </div>
-                                    {/* email  */}
                                     <div>
                                         <Form.Label className="text-white small">E-mail</Form.Label>
                                         <Form.Control
@@ -178,7 +174,6 @@ export default function ConnectUs() {
                                             required
                                         />
                                     </div>
-                                    {/* message  */}
                                     <div>
                                         <Form.Label className="text-white small">Message</Form.Label>
                                         <Form.Control
@@ -205,7 +200,7 @@ export default function ConnectUs() {
                     </div>
 
                 </div>
-            </div >
+            </div > */}
 
         </>
     )
