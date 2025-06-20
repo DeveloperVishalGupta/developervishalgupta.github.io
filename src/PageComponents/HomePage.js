@@ -26,7 +26,7 @@ import wordpressIcon from '../iconImages/wordpress.png';
 import bootstrapIcon from '../iconImages/boostrap.png';
 import Quote from '../images/quate.png';
 import QuoteImage from '../images/quateImage.png';
-import FeedbackImage from '../images/FeedBack.png';
+// import FeedbackImage from '../images/FeedBack.png';
 
 
 // import icons
@@ -43,7 +43,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Home from "../components/Home";
-import {BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 
 // constant text
@@ -55,13 +55,13 @@ export default function HomePage() {
     return (
         <>
             <Home greenStrip={greenStrip} VG={VishalGupta} circelCheck={faCircleCheck} intsaIcon={faInstagram}
-                  Github={faGithub} linkedIn={faLinkedinIn} />
+                Github={faGithub} linkedIn={faLinkedinIn} />
             <ServicesPage webdev={webDev} webdev2={webdev2} codeIcon={faLaptopCode} pencilIcon={faPencilSquare} />
             <MyFortfolio ss1={websiteSS1} ss2={websiteSS2} ss3={websiteSS3} ss4={websiteSS4} />
             <Resume leftArrow={faCaretLeft} rightArrow={faCaretRight} resumeImage={resumeImage} react={reactIcon} html={htmlIcon} wp={wordpressIcon} bts={bootstrapIcon}
-                    css={cssIcon} />
+                css={cssIcon} />
             <FeedBack image={QuoteImage} quoteIcon={Quote} feedbackImage={FeedbackImage} leftArrow={faCaretLeft} rightArrow={faCaretRight} />
-            <ConnectUs HeadingLine1={ConnectUsHeadingLine1} HeadingLine2={ConnectUsHeadingLine2}/>
+            <ConnectUs HeadingLine1={ConnectUsHeadingLine1} HeadingLine2={ConnectUsHeadingLine2} />
         </>
     )
 }

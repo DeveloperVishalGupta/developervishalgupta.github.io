@@ -2,9 +2,9 @@ import React from "react";
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import feedBack from '../images/feedBack.png'
+// import feedBack from '../images/feedBack.png'
 import axios from 'axios';
-const API_URL = 'https://mybusiness.googleapis.com/v4/accounts/{accountId}/locations/{locationId}/reviews';
+// const API_URL = 'https://mybusiness.googleapis.com/v4/accounts/{accountId}/locations/{locationId}/reviews';
 
 // import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -64,7 +64,7 @@ export default function FeedBack(props) {
                 <div className="item" >
                     <div className="row align-items-center position-relative ">
                         <div className="col-md-5">
-                            <img src={feedBack} className='w-100' alt="" />
+                            {/* <img src={feedBack} className='w-100' alt="" /> */}
                         </div>
                         <div className="col-md-7">
                             <OwlCarousel {...options} autoplay='true' loop nav >
