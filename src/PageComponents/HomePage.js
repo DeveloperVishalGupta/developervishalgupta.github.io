@@ -60,7 +60,8 @@ export default function HomePage() {
             <MyFortfolio ss1={websiteSS1} ss2={websiteSS2} ss3={websiteSS3} ss4={websiteSS4} />
             <Resume leftArrow={faCaretLeft} rightArrow={faCaretRight} resumeImage={resumeImage} react={reactIcon} html={htmlIcon} wp={wordpressIcon} bts={bootstrapIcon}
                 css={cssIcon} />
-            <FeedBack image={QuoteImage} quoteIcon={Quote} feedbackImage={FeedbackImage} leftArrow={faCaretLeft} rightArrow={faCaretRight} />
+            {/* feedbackImage={FeedbackImage}  */}
+            <FeedBack image={QuoteImage} quoteIcon={Quote} leftArrow={faCaretLeft} rightArrow={faCaretRight} />
             <ConnectUs HeadingLine1={ConnectUsHeadingLine1} HeadingLine2={ConnectUsHeadingLine2} />
         </>
     )
