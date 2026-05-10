@@ -18,6 +18,13 @@ export default function MyFortfolio(props) {
             projectLink: 'https://www.upsclab.in',
             discription: 'UPSC Lab are dedicated to helping aspiring civil servants achieve their dream of becoming an IAS/IPS/IFS officer. '
         },
+        {
+            name: 'upsc lab',
+            class: 'site2BgImage',
+            image: upcsLabIcon,
+            projectLink: 'https://www.upsclab.in',
+            discription: 'UPSC Lab are dedicated to helping aspiring civil servants achieve their dream of becoming an IAS/IPS/IFS officer. '
+        },
 
     ];
     const ProjectCard = ProjectArray.map((value) => {
