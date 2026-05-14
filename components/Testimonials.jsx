@@ -5,7 +5,7 @@ import Image from 'next/image'
 import SectionHeading from '@/components/common/SectionHeading'
 import { portfolioData } from '@/lib/constants'
 import { containerVariants, itemVariants } from '@/lib/animations'
-import GoogleReviews from './GoogleReviews'
+// import GoogleReviews from './GoogleReviews'
 
 const Testimonials = () => {
   const { testimonials } = portfolioData
