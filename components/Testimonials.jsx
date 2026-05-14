@@ -87,7 +87,7 @@ const Testimonials = () => {
         className="text-center mt-12"
       >
         <a
-          href="https://g.page/r/CW3hgYx7S9E8EBM/review"
+          href="https://www.google.com/search?sca_esv=28a3446d981ae400&hl=en&authuser=0&sxsrf=ANbL-n6CaEeDRrhZO3s486p1tRUcEjAhIQ:1778773372739&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOVIf-_Mlr-Amm3n3cgMQg7vhtT9gGAsb2P8rvNKD1A0no_lBvsqYNmq1MoccY0WP5r5V5wiRf1T6_OoWPPC_LPF4YKJN0XyUNs1CJRds9VJ6h-E-T9mrmhCikoFljUQ3qhJh2IWFCEE1WncKYaiCiem92dXIofTgHPfVfW3BpkpmMZWz1TGBnFYk_ZIRqF_Yd2tJiK4%3D&q=Developer+Vishal+Gupta+-+Website+Designer+and+Developer+%26+Best+Freelancer+%7C+React+JS+Developer+Reviews&sa=X&ved=2ahUKEwjrmJKYj7mUAxVC7TgGHeChFkcQ0bkNegQIHxAI&biw=1536&bih=730&dpr=1.25"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center px-6 py-3 bg-accent-green text-dark-900 font-semibold rounded-lg hover:bg-accent-green/90 transition-colors duration-300 shadow-lg hover:shadow-xl"
